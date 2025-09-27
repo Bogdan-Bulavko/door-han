@@ -2,8 +2,8 @@ import Link from 'next/link';
 
 export default function Blog() {
   const posts = [
-    { slug: 'kak-nauchitsya-react', title: 'Как научиться React' },
-    { slug: 'soveti-dlya-novichkov', title: 'Советы для новичков' },
+    { slug: 'kak-nauchitsya-react', title: 'Как научится Реакт' },
+    { slug: 'soveti-dlya-novichkov', title: 'Советы для Новичков' },
   ];
   return (
     <div>
@@ -13,7 +13,11 @@ export default function Blog() {
         {posts.map((post) => (
           <li key={post.slug}>
             {/* Вот здесь мы "переходим" в [slug] */}
-            <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+            <Link
+              href={`/blog/${post.slug}?slug=${post.slug}&title=${post.title}`}
+            >
+              {post.slug}
+            </Link>
           </li>
         ))}
       </ul>

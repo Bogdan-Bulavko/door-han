@@ -1,13 +1,15 @@
-export default function PostPage({
-  params,
+export default async function PostPage({
+  searchParams,
 }: {
-  params: { slug: string; title: string };
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }) {
+  const { slug, title } = await searchParams;
+  console.log(slug, title);
   return (
     <article>
-      <h1>Статья: {params.title}</h1>
+      <h1>Статья: {title}</h1>
       <p>Это контент поста с динамическим именем.</p>
-      <p>Вы находитесь на: /blog/{params.slug}</p>
+      <p>Вы находитесь на: /blog/{slug}</p>
     </article>
   );
 }
