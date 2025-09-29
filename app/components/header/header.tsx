@@ -10,7 +10,7 @@ export default function Header() {
   };
 
   return (
-    <header className="w-5xl m-auto">
+    <header className="max-w-5xl m-auto">
       <div className="py-5 px-3 flex items-center relative">
         <nav
           className={`py-5 px-3 absolute top-0 left-0 w-full flex justify-between backdrop-blur-sm duration-500 ${
