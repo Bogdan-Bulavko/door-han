@@ -7,14 +7,14 @@ export default function Header() {
     setStatusMenu(!statusMenu);
   };
   return (
-    <header className="px-5 py-7.5 flex justify-between items-center max-md:relative">
+    <header className="px-5 py-7.5 max-w-5xl m-auto flex justify-between items-center max-md:relative">
       <div className="max-w-40">
         <img src="logo_doorhan.svg" alt="logo" className="min-w-40" />
       </div>
-      <nav className="flex justify-between ">
+      <nav className="flex justify-between">
         <ul
-          className={` px-5 flex flex-wrap justify-center gap-5 max-md:absolute max-md:left-0 duration-500 backdrop-blur-xs ${
-            statusMenu ? 'max-md:translate-y-5' : 'max-md:-translate-y-30'
+          className={` px-5 pb-3 flex flex-wrap justify-center gap-5 max-md:absolute max-md:left-0 duration-500 bg-white rounded-b-2xl ${
+            statusMenu ? 'max-md:translate-y-10' : 'max-md:-translate-y-30'
           }`}
         >
           <li className="text-gray-500">О компании</li>
