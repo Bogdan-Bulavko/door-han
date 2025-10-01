@@ -7,7 +7,7 @@ export default function Header() {
     setStatusMenu(!statusMenu);
   };
   return (
-    <header className="px-5 pt-7.5 flex justify-between items-center max-md:relative">
+    <header className="px-5 py-7.5 flex justify-between items-center max-md:relative">
       <div className="max-w-40">
         <img src="/logo_doorhan.svg" alt="logo" className="min-w-40" />
       </div>
@@ -25,7 +25,7 @@ export default function Header() {
         </ul>
       </nav>
       <button className="min-md:hidden" onClick={openMenu}>
-        <img src="/menu.svg" alt="" />
+        <img src="/menu.svg" alt="menu" />
       </button>
     </header>
   );
