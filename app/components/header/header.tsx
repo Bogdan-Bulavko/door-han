@@ -13,7 +13,7 @@ export default function Header() {
       </div>
       <nav className="flex justify-between">
         <ul
-          className={` px-5 pb-3 flex flex-wrap justify-center gap-5 max-md:absolute max-md:left-0 duration-500 bg-white rounded-b-2xl ${
+          className={`px-5 py-2 flex flex-wrap justify-center gap-5 max-md:absolute max-md:left-0 duration-500 bg-white rounded-b-2xl ${
             statusMenu ? 'max-md:translate-y-10' : 'max-md:-translate-y-30'
           }`}
         >
