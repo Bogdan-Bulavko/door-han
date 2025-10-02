@@ -2,7 +2,7 @@
 
 export default function HomeQuestions() {
   return (
-    <section className="px-5 max-w-5xl m-auto">
+    <section className="px-5 max-w-5xl mt-6 m-auto">
       <h3 className="text-lg font-bold">Часто задаваемые вопросы</h3>
 
       <div className="flex gap-5 max-md:flex-col min-md:items-center">
