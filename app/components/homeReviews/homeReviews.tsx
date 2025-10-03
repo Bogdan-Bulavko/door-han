@@ -17,11 +17,11 @@ export default function homeReviews() {
             alt="Фото отзыва"
             className="rounded-xl"
           />
-          <p className="mt-4.5 text-sm text-gray-500">
+          <p className="mt-4.5 text-gray-500">
             «Заказывали откатные ворота с автоматикой. Всё сделали быстро и
             качественно!»
           </p>
-          <p className=" mt-4.5 font-semibold text-color-company">
+          <p className=" mt-4.5 text-lg font-semibold text-color-company">
             Андрей — частный клиент
           </p>
         </li>
@@ -31,11 +31,11 @@ export default function homeReviews() {
             alt="Фото отзыва"
             className="rounded-xl"
           />
-          <p className="mt-4.5 text-sm text-gray-500">
+          <p className="mt-4.5 text-gray-500">
             «Установили шлагбаум во дворе. Работает идеально, обслуживание на
             высоте!»
           </p>
-          <p className=" mt-4.5 font-semibold text-color-company">
+          <p className=" mt-4.5 text-lg font-semibold text-color-company">
             Ирина — управляющая ТСЖ
           </p>
         </li>
