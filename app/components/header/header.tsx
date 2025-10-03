@@ -9,11 +9,7 @@ export default function Header() {
   return (
     <header className="px-5 py-7.5 max-w-5xl m-auto flex justify-between items-center max-md:relative">
       <div className="max-w-40">
-        <img
-          src="logo_color_company.svg"
-          alt="logo"
-          className="text-color-company"
-        />
+        <img src="logo_color_company.svg" alt="logo" />
       </div>
       <nav className="flex justify-between">
         <ul
