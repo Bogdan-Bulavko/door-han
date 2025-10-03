@@ -7,13 +7,13 @@ export default function Header() {
     setStatusMenu(!statusMenu);
   };
   return (
-    <header className="px-5 py-7.5 max-w-5xl m-auto flex justify-between items-center max-md:relative">
+    <header className="max-lg:px-5 py-7.5 max-w-5xl m-auto flex justify-between items-center max-md:relative">
       <div className="max-w-40">
         <img src="logo_color_company.svg" alt="logo" />
       </div>
       <nav className="flex justify-between">
         <ul
-          className={`px-5 py-2 flex flex-wrap justify-center gap-5 max-md:absolute max-md:left-0 duration-500 bg-white rounded-b-2xl ${
+          className={`max-lg:px-5 py-2 flex flex-wrap justify-center gap-5 max-md:absolute max-md:left-0 duration-500 bg-white rounded-b-2xl ${
             statusMenu ? 'max-md:translate-y-10' : 'max-md:-translate-y-30'
           }`}
         >

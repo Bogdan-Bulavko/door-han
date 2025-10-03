@@ -2,7 +2,7 @@
 
 export default function homeReviews() {
   return (
-    <section className="px-5 max-w-5xl mt-6 m-auto">
+    <section className="max-lg:px-5 max-w-5xl mt-6 m-auto">
       <h2 className="text-3xl max-sm:text-3xl font-bold">
         Что говорят наши клиенты
       </h2>

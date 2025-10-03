@@ -2,7 +2,7 @@
 
 export default function SearchProduct() {
   return (
-    <section className="p-12 max-sm:p-6 max-w-5xl m-auto text-white bg-color-company rounded-3xl">
+    <section className="p-5 max-w-5xl m-auto text-white bg-color-company rounded-3xl">
       <h1 className="text-4xl max-sm:text-3xl font-bold">
         Современные ворота, рольставни и шлагбаумы
       </h1>

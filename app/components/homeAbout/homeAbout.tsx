@@ -2,9 +2,9 @@
 
 export default function HomeAbout() {
   return (
-    <section className="px-5 max-w-5xl mt-6 m-auto font-display">
+    <section className="max-lg:px-5 max-w-5xl mt-6 m-auto font-display">
       <div className="flex gap-10 max-md:flex-col justify-between items-center">
-        <div className="min-w-70 p-3">
+        <div className="min-w-70">
           <img
             src="photo_reviews1.webp"
             alt="Фото продукции"

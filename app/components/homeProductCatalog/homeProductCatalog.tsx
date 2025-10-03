@@ -23,27 +23,33 @@ export default function HomeProductCatalog() {
     return (
       <li
         key={product.name}
-        className="w-75 p-4.5 bg-white rounded-xl shadow-xl hover:scale-110 duration-300 hover:shadow-xl/30"
+        className="max-w-82 p-4.5 flex flex-col justify-between items-start flex-start bg-white rounded-xl shadow-xl hover:scale-110 duration-300 hover:shadow-xl/30"
       >
-        <img
-          src={product.img}
-          alt="Фото отзыва"
-          className="rounded-xl h-40 w-64"
-        />
-        <p className=" mt-4.5 text-lg font-semibold text-color-company">
-          {product.name}
-        </p>
+        <div>
+          <img
+            src={product.img}
+            alt="Фото отзыва"
+            className="rounded-xl object-cover w-75 h-45"
+          />
+          <p className=" mt-4.5 text-lg font-semibold text-color-company">
+            {product.name}
+          </p>
+        </div>
+
+        <button className="mt-4 p-3 bg-color-company text-white rounded-2xl">
+          Узнать цены
+        </button>
       </li>
     );
   });
   return (
-    <section className="px-5 max-w-5xl mt-6 m-auto">
+    <section className="max-lg:px-5 max-w-5xl mt-6 m-auto">
       <h2 className="text-3xl max-sm:text-3xl font-bold">Категории товаров</h2>
       <p className="mt-3.5 text-gray-500">
         Широкий ассортимент товаров в различных категориях.
       </p>
 
-      <ul className="w-full mt-5.5 flex flex-wrap justify-center gap-4.5 ">
+      <ul className="w-full mt-5.5 flex flex-wrap justify-center gap-5">
         {itemsCatalogProducts}
       </ul>
     </section>
