@@ -11,7 +11,7 @@ export default function homeReviews() {
       </p>
 
       <ul className="w-full mt-5.5 flex gap-4.5 overflow-auto">
-        <li className="min-w-70 p-4.5 bg-white rounded-xl shadow-xl">
+        <li className="min-w-70 p-4.5 bg-white rounded-xl">
           <img
             src="photo_reviews1.webp"
             alt="Фото отзыва"
@@ -25,7 +25,7 @@ export default function homeReviews() {
             Андрей — частный клиент
           </p>
         </li>
-        <li className="min-w-70 p-4.5 bg-white rounded-xl shadow-xl">
+        <li className="min-w-70 p-4.5 bg-white rounded-xl">
           <img
             src="photo_reviews2.webp"
             alt="Фото отзыва"
